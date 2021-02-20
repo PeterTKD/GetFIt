@@ -16,7 +16,7 @@ public class AdminLogIn extends WearableActivity {
         mTextView = (TextView) findViewById(R.id.text);
 
         // Enables Always-on
-        //test commit
+        //test commit not sure
         setAmbientEnabled();
     }
 }
