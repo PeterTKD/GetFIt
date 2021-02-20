@@ -17,6 +17,7 @@ public class AdminLogIn extends WearableActivity {
 
         // Enables Always-on
         //test commit not sure
+        //I hate git
         setAmbientEnabled();
     }
 }
