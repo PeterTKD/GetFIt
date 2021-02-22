@@ -1,7 +1,7 @@
 package com.example.getfit;
 
 import android.os.Bundle;
-import android.support.wearable.activity.WearableActivity;
+
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
