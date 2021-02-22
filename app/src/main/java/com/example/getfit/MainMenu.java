@@ -4,22 +4,18 @@ import android.os.Bundle;
 import android.support.wearable.activity.WearableActivity;
 import android.widget.TextView;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-public class AdminLogIn extends AppCompatActivity {
+public class MainMenu extends WearableActivity {
 
     private TextView mTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_admin_log_in);
+        setContentView(R.layout.activity_main_menu);
 
         mTextView = (TextView) findViewById(R.id.text);
 
         // Enables Always-on
-        //test commit not sure
-        //I hate git
-
+        setAmbientEnabled();
     }
 }

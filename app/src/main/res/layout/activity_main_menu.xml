@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="364dp"
+        android:layout_height="597dp"
+        android:src="@drawable/backimg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.761" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="70dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/logoforprojectapp"
+        app:layout_constraintBottom_toTopOf="@+id/txt1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.865"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+
+        app:layout_constraintVertical_bias="0.0"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Health Categories"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.233"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="292dp"
+        android:layout_height="1.5dp"
+        android:src="@drawable/line"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+
+        android:text="Physical Activities"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        tools:layout_editor_absoluteX="113dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="292dp"
+        android:layout_height="1.5dp"
+        android:src="@drawable/line"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+    <ImageView
+        android:layout_width="292dp"
+        android:layout_height="1.5dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtboxUsername" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="292dp"
+        android:layout_height="1.5dp"
+        android:src="@drawable/line"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="241dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Heart"
+        android:textSize="25dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.323"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.647" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="292dp"
+        android:layout_height="1.5dp"
+        android:layout_marginTop="56dp"
+        android:src="@drawable/line"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        tools:layout_editor_absoluteX="59dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Body"
+        android:textSize="25dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.318"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.678" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Diet"
+
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+
+        android:text="Mental Health"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView6"
+        tools:layout_editor_absoluteX="113dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Disease surveillance"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Medicine/ Doc Reminder"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="486dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="292dp"
+        android:layout_height="1.5dp"
+        android:src="@drawable/line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="405dp" />
+
+    <ImageView
+
+        android:layout_width="292dp"
+        android:layout_height="1.5dp"
+        android:src="@drawable/line"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="467dp" />
+
+    <ImageView
+        android:layout_width="43.59dp"
+        android:layout_height="42.09dp"
+        android:src="@drawable/first"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <ImageView
+        android:layout_width="43.59dp"
+        android:layout_height="42.09dp"
+        android:src="@drawable/second"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <ImageView
+        android:layout_width="43.59dp"
+        android:layout_height="42.09dp"
+        android:src="@drawable/third"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <ImageView
+        android:layout_width="43.59dp"
+        android:layout_height="42.09dp"
+        android:src="@drawable/fourth"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <ImageView
+        android:layout_width="43.59dp"
+        android:layout_height="42.09dp"
+        android:src="@drawable/fifth"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+    <ImageView
+        android:layout_width="43.59dp"
+        android:layout_height="42.09dp"
+        android:src="@drawable/sixth"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="418dp" />
+
+    <ImageView
+        android:layout_width="43.59dp"
+        android:layout_height="42.09dp"
+        android:src="@drawable/seventh"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="478dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".AdminLogIn"
-            android:label="@string/title_activity_admin_log_in">
+            android:name=".MainMenu"
+            android:label="@string/title_activity_main_menu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,6 +24,16 @@
                app to run.
         -->
         <activity
+            android:name=".AdminLogIn"
+            android:label="@string/title_activity_admin_log_in">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
             android:name=".UserLogIn"
             android:label="@string/title_activity_user_log_in">
             <intent-filter>
@@ -32,7 +42,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -40,14 +49,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <meta-data
-            android:name="com.google.android.wearable.standalone"
-            android:value="true" />
         <!--
                Set to true if your app is Standalone, that is, it does not require the handheld
                app to run.
         -->
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
         <uses-library
             android:name="com.google.android.wearable"
             android:required="true" />
